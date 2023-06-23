@@ -1,0 +1,128 @@
+﻿@model IEnumerable<puntoDeVenta.Models.Compra>
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalle Compra</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-user"></i> Usuario
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="ListaUsuario"><i class="fa-solid fa-users-between-lines"></i> Lista de Usuarios</a></li>
+                            </ul>
+                        </li>
+                    }
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-table-list"></i> Inventario
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Proveedor" asp-action="ListaProveedor"><i class="fa-solid fa-truck-field"></i> Proveedor</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Categoria" asp-action="ListaCategoria"><i class="fa-solid fa-tag"></i> Categoria</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Producto" asp-action="Index"><i class="fa-solid fa-gifts"></i> Producto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-store"></i> Compra
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Compra" asp-action="ListaCompra"><i class="fa-solid fa-store"></i> Lista de Compras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-shop"></i> Venta
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="Index"><i class="fa-solid fa-cart-plus"></i> Nueva Venta</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="ListaVenta"><i class="fa-solid fa-store"></i> Lista de Ventas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav float-end">
+                <li class="nav-item dropdown justify-content-start">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="~/img/user.png" width="50" height="50"> @ViewBag.nombre
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-pen"></i> Editar Perfil</a></li>
+                        <li><a class="dropdown-item" asp-controller="Acceder" asp-action="CerrarSesion"><i class="fa-solid fa-right-from-bracket"></i> Salir</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="text-primary">Detalle de Compra</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Count() > 0)
+                        {
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Proveedor</th>
+                                        <th>Producto</th>
+                                        <th>Precio Compra S/.</th>
+                                        <th>Cantidad</th>
+                                        <th>Importe S/.</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.nombreProveedor</td>
+                                            <td>@item.NombreProducto</td>
+                                            <td>@item.precioCompra</td>
+                                            <td>@item.cantidad</td>
+                                            <td>@item.importe</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <p>No hay registros de esta compra para mostrar.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

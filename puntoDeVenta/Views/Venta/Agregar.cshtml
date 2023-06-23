@@ -1,0 +1,148 @@
+﻿@model puntoDeVenta.Models.BlocVenta
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Agregar Compra</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/AgregarVenta.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-user"></i> Usuario
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="ListaUsuario"><i class="fa-solid fa-users-between-lines"></i> Lista de Usuarios</a></li>
+                            </ul>
+                        </li>
+                    }
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-table-list"></i> Inventario
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Proveedor" asp-action="ListaProveedor"><i class="fa-solid fa-truck-field"></i> Proveedor</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Categoria" asp-action="ListaCategoria"><i class="fa-solid fa-tag"></i> Categoria</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Producto" asp-action="Index"><i class="fa-solid fa-gifts"></i> Producto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-store"></i> Compra
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Compra" asp-action="ListaCompra"><i class="fa-solid fa-store"></i> Lista de Compras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-shop"></i> Venta
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="Index"><i class="fa-solid fa-cart-plus"></i> Nueva Venta</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="ListaVenta"><i class="fa-solid fa-store"></i> Lista de Ventas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav float-end">
+                <li class="nav-item dropdown justify-content-start">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="~/img/user.png" width="50" height="50"> @ViewBag.nombre
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-pen"></i> Editar Perfil</a></li>
+                        <li><a class="dropdown-item" asp-controller="Acceder" asp-action="CerrarSesion"><i class="fa-solid fa-right-from-bracket"></i> Salir</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="modal">
+            <div class="contenido text-center">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 id="agregar">Agregar producto</h2>
+                    </div>
+                    <div class="card-body">
+                        <form asp-controller="Venta" asp-action="Agregar" method="post">
+                            <input asp-for="nombreProducto" value="@ViewBag.producto" hidden />
+                            <input asp-for="nombreCategoria" value="@ViewBag.categoria" hidden />
+                            <input asp-for="precio" value="@ViewBag.precio" hidden />
+                            <input asp-for="imagen" value="@ViewBag.imagen" hidden />
+                            <input value="@ViewBag.stock" name="stock" hidden/>
+                            <div class="form-group row">
+                                <div class="col-sm-4 text-end">
+                                    <strong>@ViewBag.producto</strong>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group row">
+                                <div class="col-sm-4 text-end">
+                                    <strong>Cantidad: </strong>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="number" asp-for="cantidad" class="form-control" autocomplete="off" id="cantidad" />
+                                    <span asp-validation-for="cantidad" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <br />
+                            <div>
+                                <button name="crear" type="submit" class="btn btn-success offset-4">
+                                    <i class="fa-solid fa-floppy-disk"></i>
+                                    Agregar Producto
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h2 class="text-primary">Lista de Productos</h2>
+            </div>
+        </div>
+
+        <div class="p-4 border rounded bg-light">
+            <table id="tblData" class="table table-bordered table-responsive-xl">
+                <thead class="thead-dark">
+                    <tr class="table-dark">
+                        <th>Producto</th>
+                        <th>Imagen</th>
+                        <th>Categoria</th>
+                        <th>Precio Venta S/.</th>
+                        <th>Cantidad</th>
+                        <th>Agregar</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="~/js/producto.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

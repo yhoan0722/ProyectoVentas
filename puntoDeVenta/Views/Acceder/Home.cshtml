@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="text-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i> Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            @if (User.IsInRole("Administrador"))
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-user"></i> Usuario
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li><a class="dropdown-item" asp-area="" asp-controller="Usuario" asp-action="ListaUsuario"><i class="fa-solid fa-users-between-lines"></i> Lista de Usuarios</a></li>
+                                    </ul>
+                                </li>
+                            }
+                            <li id="navegacionInventario" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-table-list"></i> Inventario
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Proveedor" asp-action="ListaProveedor"><i class="fa-solid fa-truck-field"></i> Proveedor</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Categoria" asp-action="ListaCategoria"><i class="fa-solid fa-tag"></i> Categoria</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Producto" asp-action="Index"><i class="fa-solid fa-gifts"></i> Producto</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-store"></i> Compra
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Compra" asp-action="ListaCompra"><i class="fa-solid fa-store"></i> Lista de Compras</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-shop"></i> Venta
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="Index"><i class="fa-solid fa-cart-plus"></i> Nueva Venta</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Venta" asp-action="ListaVenta"><i class="fa-solid fa-store"></i> Lista de Ventas</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav float-end">
+                        <li class="nav-item dropdown justify-content-start">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="~/img/user.png" width="50" height="50"> @ViewBag.nombre
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-pen"></i> Editar Perfil</a></li>
+                                <li><a class="dropdown-item" asp-controller="Acceder" asp-action="CerrarSesion"><i class="fa-solid fa-right-from-bracket"></i> Salir</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="text-center">
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 class="display-4">BIENVENIDO</h1>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - puntoDeVenta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

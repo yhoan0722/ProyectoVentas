@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\puntoDeVenta.bundle.scp.css",
+      "PackagePath": "staticwebassets\\puntoDeVenta.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\Advertencia.css",
+      "PackagePath": "staticwebassets\\css\\Advertencia.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\AgregarCompra.css",
+      "PackagePath": "staticwebassets\\css\\AgregarCompra.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\AgregarVenta.css",
+      "PackagePath": "staticwebassets\\css\\AgregarVenta.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\EliminarCompra.css",
+      "PackagePath": "staticwebassets\\css\\EliminarCompra.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\EliminarProducto.css",
+      "PackagePath": "staticwebassets\\css\\EliminarProducto.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\ErrorStock.css",
+      "PackagePath": "staticwebassets\\css\\ErrorStock.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\casino6u.webp",
+      "PackagePath": "staticwebassets\\img\\casino6u.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\cocacola600.webp",
+      "PackagePath": "staticwebassets\\img\\cocacola600.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\cuates56g.webp",
+      "PackagePath": "staticwebassets\\img\\cuates56g.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\dorito85g.webp",
+      "PackagePath": "staticwebassets\\img\\dorito85g.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\error.png",
+      "PackagePath": "staticwebassets\\img\\error.png"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\incakola600.webp",
+      "PackagePath": "staticwebassets\\img\\incakola600.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\lays70g.webp",
+      "PackagePath": "staticwebassets\\img\\lays70g.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\login.jpg",
+      "PackagePath": "staticwebassets\\img\\login.jpg"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\morocha6u.webp",
+      "PackagePath": "staticwebassets\\img\\morocha6u.webp"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\pregunta.png",
+      "PackagePath": "staticwebassets\\img\\pregunta.png"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\compra.js",
+      "PackagePath": "staticwebassets\\js\\compra.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\compra2.js",
+      "PackagePath": "staticwebassets\\js\\compra2.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\listaCompra.js",
+      "PackagePath": "staticwebassets\\js\\listaCompra.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\listaVenta.js",
+      "PackagePath": "staticwebassets\\js\\listaVenta.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\proveedor.js",
+      "PackagePath": "staticwebassets\\js\\proveedor.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\calidad\\proyecto final\\puntoDeVenta\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.puntoDeVenta.props",
+      "PackagePath": "build\\puntoDeVenta.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.puntoDeVenta.props",
+      "PackagePath": "buildMultiTargeting\\puntoDeVenta.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.puntoDeVenta.props",
+      "PackagePath": "buildTransitive\\puntoDeVenta.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.puntoDeVenta.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

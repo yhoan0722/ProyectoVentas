@@ -1,0 +1,55 @@
+﻿@model Usuario
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="row mt-5">
+        <div class="col-sm-4 offset-sm-4">
+            <div class="card-header text-white bg-secondary">
+                <h2 class="text-center">Iniciar Sesión</h2>
+            </div>
+            <div>
+                <center><img src=~/img/login.jpg width="100" /></center>
+            </div>
+            <div class="card-body">
+                <form asp-controller="Acceder" asp-action="Login" method="post">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Email</label>
+                        <input name="correo" type="email" class="form-control" placeholder="Ingrese su email" asp-for="correo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clave" class="form-label">Contraseña</label>
+                        <input name="clave" type="password" class="form-control" placeholder="Ingrese su contraseña" asp-for="clave">
+                    </div>
+                    <br />
+                    @if (ViewData["Mensaje"] != null)
+                    {
+                        <div id="alerta" class="alert alert-danger" role="alert">El correo y/o la contraseña son incorrectas</div>
+                    }
+                    <button name="login" type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - puntoDeVenta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+

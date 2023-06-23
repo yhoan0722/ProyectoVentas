@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = puntoDeVenta
+build_property.RootNamespace = puntoDeVenta
+build_property.ProjectDir = D:\calidad\proyecto final\puntoDeVenta\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\calidad\proyecto final\puntoDeVenta
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Acceder/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZWRlclxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Acceder/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZWRlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Categoria/ListaCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXExpc3RhQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/Advertencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEFkdmVydGVuY2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/AgregarCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEFncmVnYXJDb21wcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXERldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/EliminarCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEVsaW1pbmFyQ29tcHJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/ListaCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXExpc3RhQ29tcHJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Compra/RegistrarCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXFJlZ2lzdHJhckNvbXByYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Producto/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Producto/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Producto/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Proveedor/ListaProveedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXExpc3RhUHJvdmVlZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Usuario/ListaUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMaXN0YVVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/Agregar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQWdyZWdhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/AgregarUno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQWdyZWdhclVuby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/BoletaVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQm9sZXRhVmVudGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/BuscarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQnVzY2FyUHJvZHVjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/ConfirmarVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcQ29uZmlybWFyVmVudGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcRGV0YWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/EliminarProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcRWxpbWluYXJQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/ListaVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcTGlzdGFWZW50YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/MostrarPDFenPagina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcTW9zdHJhclBERmVuUGFnaW5hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/NotaVenta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcTm90YVZlbnRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Venta/QuitarUno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFcUXVpdGFyVW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/calidad/proyecto final/puntoDeVenta/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cqdjxhselw
